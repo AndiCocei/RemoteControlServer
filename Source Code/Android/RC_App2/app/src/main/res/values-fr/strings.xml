@@ -1,0 +1,7 @@
+<resources>
+    <string name="warning">Sur IP change, App doit être redémarré.</string>
+    <string name="name">Télécommande</string>
+    <string name="ipHint">192.168.1.100</string>
+    <string name="label">IP hôte:</string>
+    <string name="warningAbove">Attention!</string>
+</resources>

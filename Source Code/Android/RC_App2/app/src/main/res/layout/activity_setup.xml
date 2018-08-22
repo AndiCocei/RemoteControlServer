@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic"
+    tools:context="com.example.andi.rc_app_main.Setup">
+
+    <Button
+        android:id="@+id/bRC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/background_light"
+        android:text="@string/name" />
+
+    <EditText
+        android:id="@+id/eIP"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/ipHint"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/tWarning2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="@string/warning" />
+
+    <TextView
+        android:id="@+id/eLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/eIP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-150dp"
+        android:text="@string/label" />
+
+    <TextView
+        android:id="@+id/tWarning1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tWarning2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/warningAbove" />
+
+</RelativeLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bRightClick"
+        android:layout_below="@+id/bDown"
+        android:clickable="false"
+        android:focusable="false"
+        android:background="#FF1A1A1A"
+        android:id="@+id/mousePad"/>
+
+    <Button
+        android:id="@+id/bRightClick"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="#454545"
+        android:onClick="sendRightClick" />
+
+    <Button
+        android:id="@+id/bLeftClick"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#454545"
+        android:onClick="sendLeftClick" />
+
+    <Button
+        android:id="@+id/bMiddleClick"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#454545"
+        android:onClick="sendMiddleClick" />
+
+    <Button
+        android:id="@+id/bRight"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/bLeft"
+        android:background="@drawable/right"
+        android:onClick="sendRight" />
+
+    <Button
+        android:id="@+id/bDown"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/bRight"
+        android:background="@drawable/down"
+        android:onClick="sendDown" />
+
+    <Button
+        android:id="@+id/bLeft"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/bDown"
+        android:layout_toStartOf="@+id/bDown"
+        android:background="@drawable/left"
+        android:onClick="sendLeft" />
+
+    <Button
+        android:id="@+id/bUp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/bRight"
+        android:layout_toStartOf="@+id/bRight"
+        android:background="@drawable/up"
+        android:onClick="sendUp" />
+
+    <Button
+        android:id="@+id/bSpace"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="225dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/spacev2"
+        android:onClick="sendSpace" />
+
+    <Button
+        android:id="@+id/bEnter"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="225dp"
+        android:background="@drawable/enterv2"
+        android:onClick="sendEnter" />
+
+    <Button
+        android:id="@+id/bVolUp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/bSpace"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="-225dp"
+        android:background="@drawable/vupv2"
+        android:onClick="sendVolumeUp" />
+
+    <Button
+        android:id="@+id/bVolDown"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/bSpace"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="-225dp"
+        android:background="@drawable/vdownv2"
+        android:onClick="sendVolumeDown" />
+
+    <Button
+        android:id="@+id/bShutdown"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/shutdown" />
+
+    <Button
+        android:id="@+id/bLock"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/screenlock" />
+
+    <Button
+        android:id="@+id/bRestart"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/restart" />
+
+    <Button
+        android:id="@+id/bSleep"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sleep" />
+
+</RelativeLayout>

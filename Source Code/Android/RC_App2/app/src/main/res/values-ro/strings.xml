@@ -1,0 +1,7 @@
+<resources>
+    <string name="warning">La schimbarea adresei IP, aplicația trebuie reluată.</string>
+    <string name="name">Telecomandă</string>
+    <string name="ipHint">192.168.1.100</string>
+    <string name="label">IP gazdă:</string>
+    <string name="warningAbove">Avertizare!</string>
+</resources>

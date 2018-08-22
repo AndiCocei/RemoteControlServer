@@ -1,0 +1,7 @@
+<resources>
+    <string name="warning">On IP change, App needs to be restarted.</string>
+    <string name="name">Remote Control</string>
+    <string name="ipHint">192.168.1.100</string>
+    <string name="label">Host IP:</string>
+    <string name="warningAbove">Warning!</string>
+</resources>
